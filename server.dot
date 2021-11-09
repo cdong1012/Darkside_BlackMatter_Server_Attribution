@@ -1,0 +1,54 @@
+strict graph "" {
+	node [label="\N"];
+	"temisleyes.com"	[bipartite=1,
+		color=green,
+		label="temisleyes.com",
+		penwidth=10,
+		shape=diamond];
+	"catsdegree.com"	[bipartite=1,
+		color=green,
+		label="catsdegree.com",
+		penwidth=10,
+		shape=diamond];
+	"temisleyes.com" -- "catsdegree.com";
+	"securebestapp20.com"	[bipartite=1,
+		color=green,
+		label="securebestapp20.com",
+		penwidth=10,
+		shape=diamond];
+	"temisleyes.com" -- "securebestapp20.com";
+	"baroquetees.com"	[bipartite=1,
+		color=green,
+		label="baroquetees.com",
+		penwidth=10,
+		shape=diamond];
+	"rumahsia.com"	[bipartite=1,
+		color=green,
+		label="rumahsia.com",
+		penwidth=10,
+		shape=diamond];
+	"baroquetees.com" -- "rumahsia.com";
+	"paymenthacks.com"	[bipartite=1,
+		color=green,
+		label="paymenthacks.com",
+		penwidth=10,
+		shape=diamond];
+	"mojobiden.com"	[bipartite=1,
+		color=green,
+		label="mojobiden.com",
+		penwidth=10,
+		shape=diamond];
+	"paymenthacks.com" -- "mojobiden.com";
+	"nowautomation.com"	[bipartite=1,
+		color=green,
+		label="nowautomation.com",
+		penwidth=10,
+		shape=diamond];
+	"nowautomation.com" -- "mojobiden.com";
+	"catsdegree.com" -- "securebestapp20.com";
+	"fluentzip.org"	[bipartite=1,
+		color=green,
+		label="fluentzip.org",
+		penwidth=10,
+		shape=diamond];
+}
