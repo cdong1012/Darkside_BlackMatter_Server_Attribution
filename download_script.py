@@ -7,7 +7,7 @@ import pe
 ##    'https://api.tria.ge/v0/samples/<SAMPLE_ID>/sample' \
 ##    --output sample.bin
 
-access_key = '30e16656282f62bbab331a6e4507d42b0a21794d'
+access_key = ''
 
 
 command = "curl -H 'Authorization: Bearer {0}' 'https://api.tria.ge/v0/samples/{1}/sample' --output {1}.zip"
